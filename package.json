@@ -1,0 +1,22 @@
+{
+  "name": "cryptocompare-proxy",
+  "version": "0.0.1",
+  "description": "Proxy methods for cryptocompare api ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hexdump",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.14.0",
+    "eslint-plugin-node": "^5.2.1"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {
+    "express-redis-cache": "^1.0.0",
+    "request-promise": "^4.2.2"
+  }
+}
